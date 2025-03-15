@@ -100,8 +100,8 @@ const Nav = () => {
                     </ul>
                 </nav>
                 <h2 className="flex md:text-3xl text-3xl font-bold p-4 mx-auto ">Mobibeezz</h2>
-                <div class="InputContainer">
-                    <input onChange={handleSearch} value={search} placeholder="Search.." id="input" class="input" name="text" type="text"/>
+                <div className="InputContainer">
+                    <input onChange={handleSearch} value={search} placeholder="Search.." id="input" className="input" name="text" type="text"/>
                 </div>
             
                 
