@@ -170,3 +170,19 @@ button:hover {
     color: var(--icon-color);
     transition: color 0.3s; /* Smooth transition for color change */
 }
+@media (max-width: 450px) {
+  .input {
+      width: 90%; /* Adjust width to be responsive */
+      height: 40px; /* Keep height the same */
+      font-size: 14px; /* Optional: Adjust font size for better readability */
+      padding-left: 10px; /* Optional: Adjust padding for smaller screens */
+  }
+}
+@media (max-width: 450px) {
+  .InputContainer {
+      width: 90%; /* Adjust width to be responsive */
+      height: 50px; /* Keep height the same */
+      padding: 0 10px; /* Optional: Add padding for better touch targets */
+      box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1); /* Optional: Adjust shadow for smaller screens */
+  }
+}
